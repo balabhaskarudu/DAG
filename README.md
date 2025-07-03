@@ -242,7 +242,7 @@ npm test
 npm run test:watch
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend Deployment (Vercel)
 
@@ -291,7 +291,7 @@ EXPOSE 5000
 CMD ["npm", "start"]
 ```
 
-## 📊 Performance
+##  Performance
 
 The application is optimized for performance with:
 
@@ -334,7 +334,7 @@ The backend supports multiple environment configurations:
 - **Testing**: In-memory database, minimal logging
 - **Production**: Optimized performance, security headers, rate limiting
 
-## 🔒 Security Features
+##  Security Features
 
 - **Helmet**: Security headers for XSS protection
 - **CORS**: Configurable cross-origin resource sharing
@@ -342,7 +342,7 @@ The backend supports multiple environment configurations:
 - **Error Sanitization**: Safe error messages without sensitive data
 - **Rate Limiting Ready**: Infrastructure for API rate limiting
 
-## 📈 Monitoring & Health
+##  Monitoring & Health
 
 - **Health Endpoints**: Basic and detailed system health checks
 - **Database Monitoring**: Connection status and response time tracking
@@ -350,36 +350,10 @@ The backend supports multiple environment configurations:
 - **Performance Metrics**: Memory usage and uptime tracking
 - **Cache Statistics**: Monitor cache hit rates and performance
 
-## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-### Development Workflow
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass (`npm test` in both frontend and backend)
-6. Commit your changes (`git commit -m 'Add amazing feature'`)
-7. Push to the branch (`git push origin feature/amazing-feature`)
-8. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [React Flow](https://reactflow.dev/) - Excellent graph visualization library
-- [Dagre](https://github.com/dagrejs/dagre) - Powerful graph layout algorithms
-- [Tailwind CSS](https://tailwindcss.com/) - Amazing utility-first CSS framework
-- [Lucide](https://lucide.dev/) - Beautiful icon library
-- [Express.js](https://expressjs.com/) - Fast web framework for Node.js
-- [MongoDB](https://www.mongodb.com/) - Flexible NoSQL database
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake REST API for testing
-
-## 📞 Support
 
 - **Documentation**: Check this README and inline code comments
 - **Issues**: Report bugs and request features via GitHub Issues
