@@ -272,5 +272,5 @@ The backend supports multiple environment configurations:
 
 ---
 
-Built with ❤️ using modern web technologies. Perfect for workflow visualization, process mapping, graph-based applications, and data management systems.
->>>>>>> eed2e9fa2b7cbbc610e293abf1c96289aa728a50
+Built with  using modern web technologies. Perfect for workflow visualization, process mapping, graph-based applications, and data management systems.
+>>>The end...
