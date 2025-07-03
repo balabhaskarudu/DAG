@@ -56,7 +56,32 @@ A DAG (Directed Acyclic Graph) with modern web technologies. Visualize workflows
 npm install
 ```
 
+<<<<<<< HEAD
 **Install backend:**  
+=======
+## Deployment
+
+### Frontend Deployment (Vercel)
+
+The frontend is configured for automatic deployment to Vercel:
+
+1. **Push to main branch** - Triggers automatic deployment
+2. **Pull requests** - Creates preview deployments
+3. **Performance monitoring** - Lighthouse CI runs on each deployment
+
+### Backend Deployment
+
+For production deployment, you can use platforms like:
+
+- **Railway**: Easy Node.js deployment with MongoDB
+- **Heroku**: Traditional PaaS with MongoDB Atlas
+- **DigitalOcean App Platform**: Modern cloud deployment
+- **AWS/GCP/Azure**: Full cloud infrastructure
+
+### Environment Variables
+
+**Frontend (.env):**
+>>>>>>> eed2e9fa2b7cbbc610e293abf1c96289aa728a50
 ```bash
 cd backend
 npm install
@@ -173,7 +198,11 @@ brew services start mongodb/brew/mongodb-community
 ```
 Atlas: Create cluster, update `MONGO_URI` in `.env`
 
+<<<<<<< HEAD
 ## Security
+=======
+##  Performance
+>>>>>>> eed2e9fa2b7cbbc610e293abf1c96289aa728a50
 
 - Helmet for security headers
 - CORS
@@ -205,4 +234,43 @@ MIT License - see [LICENSE](LICENSE)
 - MongoDB
 - JSONPlaceholder
 
+<<<<<<< HEAD
 Built with modern web technologies for workflow visualization and data management.
+=======
+### Environment Configuration
+
+The backend supports multiple environment configurations:
+
+- **Development**: Hot reload, detailed logging, CORS enabled
+- **Testing**: In-memory database, minimal logging
+- **Production**: Optimized performance, security headers, rate limiting
+
+##  Security Features
+
+- **Helmet**: Security headers for XSS protection
+- **CORS**: Configurable cross-origin resource sharing
+- **Input Validation**: Joi schema validation for all inputs
+- **Error Sanitization**: Safe error messages without sensitive data
+- **Rate Limiting Ready**: Infrastructure for API rate limiting
+
+##  Monitoring & Health
+
+- **Health Endpoints**: Basic and detailed system health checks
+- **Database Monitoring**: Connection status and response time tracking
+- **Error Logging**: Comprehensive error logging with stack traces
+- **Performance Metrics**: Memory usage and uptime tracking
+- **Cache Statistics**: Monitor cache hit rates and performance
+
+
+
+
+
+
+- **Documentation**: Check this README and inline code comments
+- **Issues**: Report bugs and request features via GitHub Issues
+- **Discussions**: Join community discussions in GitHub Discussions
+
+---
+
+Built with ❤️ using modern web technologies. Perfect for workflow visualization, process mapping, graph-based applications, and data management systems.
+>>>>>>> eed2e9fa2b7cbbc610e293abf1c96289aa728a50
